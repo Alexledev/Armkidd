@@ -1,0 +1,33 @@
+[0.030s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser
+[0.152s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.695s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.781s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.807s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.041s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.045s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.106s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.243s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.244s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.320s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.376s] -- Found vision_msgs: 4.1.1 (/opt/ros/jazzy/share/vision_msgs/cmake)
+[1.464s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[1.464s]   By not providing "Findroverlad_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.464s]   project has asked CMake to find a package configuration file provided by
+[1.464s]   "roverlad_interfaces", but CMake did not find one.
+[1.465s] 
+[1.465s]   Could not find a package configuration file provided by
+[1.465s]   "roverlad_interfaces" with any of the following names:
+[1.465s] 
+[1.465s]     roverlad_interfacesConfig.cmake
+[1.466s]     roverlad_interfaces-config.cmake
+[1.466s] 
+[1.466s]   Add the installation prefix of "roverlad_interfaces" to CMAKE_PREFIX_PATH
+[1.466s]   or set "roverlad_interfaces_DIR" to a directory containing one of the above
+[1.466s]   files.  If "roverlad_interfaces" provides a separate development package or
+[1.466s]   SDK, be sure it has been installed.
+[1.467s] 
+[1.467s] [0m
+[1.467s] -- Configuring incomplete, errors occurred!
+[1.492s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser

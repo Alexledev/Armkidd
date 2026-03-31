@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package agentstream;
+
+service AgentStreamService {
+  // Client streams image + prompt to server
+  rpc ClientSend(stream ImagePromptMessage) returns (Ack);
+
+  // Client subscribes to textual results
+  rpc ServerSend(SubscribeRequest) returns (stream TextResultMessage);
+}
+
+message ImagePromptMessage {
+  bytes image = 1;
+  string prompt = 2;
+}
+
+message TextResultMessage {
+  string response = 1;
+}
+
+message SubscribeRequest {
+  string client_id = 1;
+}
+
+message Ack {
+  string status = 1;
+}

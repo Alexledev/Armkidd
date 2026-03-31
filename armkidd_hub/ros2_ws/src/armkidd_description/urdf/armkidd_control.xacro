@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="armkidd">
+    <ros2_control type="system" name="RobotCtrlSystem">
+        
+        <xacro:property name="PI" value="3.14159"/>
+
+        <xacro:if value="$(arg is_sim)">          
+            <hardware>
+                <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+            </hardware>
+
+            <joint name="joint_7">
+                <param name="mimic">joint_6</param>
+                <param name="multiplier">-1</param>
+            </joint>                    
+        </xacro:if>
+        <xacro:unless value="$(arg is_sim)">
+            <hardware>
+                <plugin>armkidd_controller/ArmkiddInterface</plugin>
+                <!-- <param name="port">/dev/ttyUSB0</param> -->
+                <param name="port">/dev/ttyCH341USB0</param>
+            </hardware>
+        </xacro:unless>
+        
+
+        <joint name="joint_1">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="joint_2">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="joint_3">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="joint_4">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="joint_5">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="joint_6">
+            <command_interface name="position">
+                <param name="min">-${PI/3}</param>
+                <param name="max">0</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+    </ros2_control>
+</robot>

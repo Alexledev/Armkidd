@@ -1,0 +1,54 @@
+[0.024s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_cvprocesser -- -j6 -l6
+[0.142s] Built target ament_cmake_python_copy_armkidd_cvprocesser
+[0.601s] running egg_info
+[0.628s] writing armkidd_cvprocesser.egg-info/PKG-INFO
+[0.628s] writing dependency_links to armkidd_cvprocesser.egg-info/dependency_links.txt
+[0.629s] writing top-level names to armkidd_cvprocesser.egg-info/top_level.txt
+[0.710s] reading manifest file 'armkidd_cvprocesser.egg-info/SOURCES.txt'
+[0.712s] writing manifest file 'armkidd_cvprocesser.egg-info/SOURCES.txt'
+[0.795s] Built target ament_cmake_python_build_armkidd_cvprocesser_egg
+[0.820s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_cvprocesser -- -j6 -l6
+[0.840s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_cvprocesser
+[0.856s] -- Install configuration: ""
+[0.857s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/pythonpath.sh
+[0.857s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/pythonpath.dsv
+[0.857s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info
+[0.858s] -- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info/PKG-INFO
+[0.859s] -- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info/top_level.txt
+[0.859s] -- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.860s] -- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.860s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser
+[0.860s] -- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/cv_processer_node.py
+[0.861s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/ImageServiceStream_pb2.py
+[0.861s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/__init__.py
+[0.861s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/ImageServiceStream.proto
+[0.862s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/ImageServiceStream_pb2_grpc.py
+[0.862s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/ImageClient.py
+[0.862s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/load_config.py
+[0.937s] Listing '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser'...
+[0.938s] Compiling '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/cv_processer_node.py'...
+[0.959s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser
+[0.959s] -- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/cv_processer_node.py
+[0.960s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/ImageServiceStream_pb2.py
+[0.960s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/__init__.py
+[0.961s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/ImageServiceStream.proto
+[0.961s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/ImageServiceStream_pb2_grpc.py
+[0.961s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/ImageClient.py
+[0.962s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/load_config.py
+[0.962s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/armkidd_cvprocesser/cv_processer_node.py
+[0.962s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/ament_index/resource_index/package_run_dependencies/armkidd_cvprocesser
+[0.963s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/ament_index/resource_index/parent_prefix_path/armkidd_cvprocesser
+[0.963s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/ament_prefix_path.sh
+[0.963s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/ament_prefix_path.dsv
+[0.964s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/path.sh
+[0.964s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/path.dsv
+[0.964s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/local_setup.bash
+[0.965s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/local_setup.sh
+[0.965s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/local_setup.zsh
+[0.965s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/local_setup.dsv
+[0.965s] -- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.dsv
+[0.966s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/ament_index/resource_index/packages/armkidd_cvprocesser
+[0.967s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/cmake/armkidd_cvprocesserConfig.cmake
+[0.969s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/cmake/armkidd_cvprocesserConfig-version.cmake
+[0.970s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.xml
+[0.970s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_cvprocesser

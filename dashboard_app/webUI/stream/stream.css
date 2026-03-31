@@ -1,0 +1,64 @@
+@import "/webUI/styles.css";
+
+.video-ui {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    /* margin: 2rem; */
+}
+
+
+.video-ui > div {
+    flex: 1;
+}
+
+.video-ui > div > img  {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+
+.snapshot-btn {
+    width: 10rem;
+    margin: 1rem;
+    margin-left: auto;
+}
+
+.chat-option-cont {
+    margin: 1rem 0;
+    width: 20rem;
+}
+
+.chat-option-cont > div {
+    width: 100%;
+}
+
+.text-input-cont {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0rem;
+}
+
+.text-input-cont > div {
+    flex: 1;
+}
+
+.text-input-cont > div:last-child {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex: 0.5;
+}
+
+
+.text-input-cont > div:last-child > button {
+    width: 70%;
+}
+
+.highlight {
+    outline: 1px solid green;
+}

@@ -1,0 +1,34 @@
+[0.047s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces
+[0.376s] -- The C compiler identification is GNU 13.3.0
+[0.665s] -- The CXX compiler identification is GNU 13.3.0
+[0.722s] -- Detecting C compiler ABI info
+[0.965s] -- Detecting C compiler ABI info - done
+[0.998s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.999s] -- Detecting C compile features
+[1.001s] -- Detecting C compile features - done
+[1.027s] -- Detecting CXX compiler ABI info
+[1.277s] -- Detecting CXX compiler ABI info - done
+[1.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.302s] -- Detecting CXX compile features
+[1.305s] -- Detecting CXX compile features - done
+[1.317s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.639s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.970s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.970s]   By not providing "Findmoveit_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.971s]   has asked CMake to find a package configuration file provided by
+[1.971s]   "moveit_msgs", but CMake did not find one.
+[1.971s] 
+[1.971s]   Could not find a package configuration file provided by "moveit_msgs" with
+[1.971s]   any of the following names:
+[1.972s] 
+[1.972s]     moveit_msgsConfig.cmake
+[1.972s]     moveit_msgs-config.cmake
+[1.972s] 
+[1.972s]   Add the installation prefix of "moveit_msgs" to CMAKE_PREFIX_PATH or set
+[1.972s]   "moveit_msgs_DIR" to a directory containing one of the above files.  If
+[1.973s]   "moveit_msgs" provides a separate development package or SDK, be sure it
+[1.973s]   has been installed.
+[1.973s] 
+[1.974s] [0m
+[1.974s] -- Configuring incomplete, errors occurred!
+[1.984s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces

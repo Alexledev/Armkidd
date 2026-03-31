@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package sttstream;
+
+service STTStreamService {
+  rpc ClientSend(stream StatusMessage) returns (Ack);
+
+  rpc ServerSend(SubscribeRequest) returns (stream STTMessage);
+}
+
+message StatusMessage {
+  string msg = 1;
+}
+
+message STTMessage {
+  string response = 1;
+}
+
+message SubscribeRequest {
+  string client_id = 1;
+}
+
+message Ack {
+  string status = 1;
+}

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+    from catkin_pkg.package import parse_package_string
+ModuleNotFoundError: No module named 'catkin_pkg'
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+  execute_process(/opt/venv/bin/python3
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /workspace/run/ros2_ws/src/armkidd_interfaces/package.xml
+  /workspace/run/ros2_ws/build/armkidd_interfaces/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+  CMakeLists.txt:16 (rosidl_generate_interfaces)
+
+[0m

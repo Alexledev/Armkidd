@@ -1,0 +1,32 @@
+[0.026s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser
+[0.074s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.594s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.670s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.693s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.900s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.954s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.079s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.080s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.147s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.220s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.220s]   By not providing "Findvision_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.220s]   has asked CMake to find a package configuration file provided by
+[1.221s]   "vision_msgs", but CMake did not find one.
+[1.221s] 
+[1.221s]   Could not find a package configuration file provided by "vision_msgs" with
+[1.221s]   any of the following names:
+[1.222s] 
+[1.222s]     vision_msgsConfig.cmake
+[1.222s]     vision_msgs-config.cmake
+[1.222s] 
+[1.222s]   Add the installation prefix of "vision_msgs" to CMAKE_PREFIX_PATH or set
+[1.223s]   "vision_msgs_DIR" to a directory containing one of the above files.  If
+[1.223s]   "vision_msgs" provides a separate development package or SDK, be sure it
+[1.223s]   has been installed.
+[1.223s] 
+[1.223s] [0m
+[1.224s] -- Configuring incomplete, errors occurred!
+[1.235s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser

@@ -1,0 +1,49 @@
+[0.025s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces
+[0.112s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.623s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.775s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.901s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.914s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.158s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.283s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.292s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.378s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.890s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[2.952s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.087s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[3.088s]   execute_process(/opt/venv/bin/python3 -m rosidl_adapter --package-name
+[3.088s]   armkidd_interfaces --arguments-file
+[3.088s]   /workspace/run/ros2_ws/build/armkidd_interfaces/rosidl_adapter__arguments__armkidd_interfaces.json
+[3.088s]   --output-dir
+[3.089s]   /workspace/run/ros2_ws/build/armkidd_interfaces/rosidl_adapter/armkidd_interfaces
+[3.089s]   --output-file
+[3.089s]   /workspace/run/ros2_ws/build/armkidd_interfaces/rosidl_adapter/armkidd_interfaces.idls)
+[3.089s]   returned error code 1:
+[3.090s] 
+[3.090s]   Traceback (most recent call last):
+[3.090s] 
+[3.090s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[3.091s]     File "<frozen runpy>", line 88, in _run_code
+[3.091s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.091s]       sys.exit(main())
+[3.091s]                ^^^^^^
+[3.092s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.092s]       abs_idl_file = convert_to_idl(
+[3.093s]                      ^^^^^^^^^^^^^^^
+[3.093s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[3.093s]       from rosidl_adapter.msg import convert_msg_to_idl
+[3.093s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[3.094s]       from rosidl_adapter.resource import expand_template
+[3.094s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[3.095s]       import em
+[3.095s] 
+[3.095s]   ModuleNotFoundError: No module named 'em'
+[3.096s] 
+[3.096s] Call Stack (most recent call first):
+[3.096s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[3.096s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[3.096s] 
+[3.097s] [0m
+[3.097s] -- Configuring incomplete, errors occurred!
+[3.122s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces

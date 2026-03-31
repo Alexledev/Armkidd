@@ -1,0 +1,6 @@
+Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser
+Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser
+Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_cvprocesser -- -j6 -l6
+Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_cvprocesser -- -j6 -l6
+Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_cvprocesser
+Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_cvprocesser

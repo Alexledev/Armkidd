@@ -1,0 +1,31 @@
+[0.025s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces
+[0.068s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.355s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.363s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.532s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.536s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.708s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.790s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.794s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.847s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.745s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.803s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.084s] Traceback (most recent call last):
+[2.084s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[2.084s]     from catkin_pkg.package import parse_package_string
+[2.085s] ModuleNotFoundError: No module named 'catkin_pkg'
+[2.095s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.095s]   execute_process(/opt/venv/bin/python3
+[2.095s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.096s]   /workspace/run/ros2_ws/src/armkidd_interfaces/package.xml
+[2.096s]   /workspace/run/ros2_ws/build/armkidd_interfaces/ament_cmake_core/package.cmake)
+[2.096s]   returned error code 1
+[2.097s] Call Stack (most recent call first):
+[2.097s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.097s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[2.097s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[2.097s] 
+[2.098s] [0m
+[2.098s] -- Configuring incomplete, errors occurred!
+[2.121s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces

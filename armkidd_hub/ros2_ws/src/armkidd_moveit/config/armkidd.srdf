@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="armkidd">
+
+  <group name="arm">
+    <joint name="joint_1"/>
+    <joint name="joint_2"/>
+    <joint name="joint_3"/>
+    <joint name="joint_4"/>
+    <joint name="joint_5"/>
+    <joint name="hand"/>
+    <joint name="end_effector"/>
+  </group>
+
+  <group name="gripper">
+    <joint name="joint_6"/>
+    <joint name="joint_7"/>
+  </group>
+    
+  <group name="arm_with_gripper">
+      <group name="arm" />
+      <group name="gripper" />
+  </group>
+  
+
+  <group_state name="home" group="arm">
+    <joint name="joint_1" value="0"/>
+    <joint name="joint_2" value="0"/>
+    <joint name="joint_3" value="0"/>
+    <joint name="joint_4" value="0"/>
+    <joint name="joint_5" value="0"/>
+  </group_state>
+
+  <group_state name="home" group="gripper">
+    <joint name="joint_6" value="0.05"/>
+    <joint name="joint_7" value="0.05"/>
+  </group_state>
+
+  <group_state name="rest" group="arm">
+    <joint name="joint_1" value="0"/>
+    <joint name="joint_2" value="-1.3"/>
+    <joint name="joint_3" value="1.3"/>
+    <joint name="joint_4" value="0.43"/>
+    <joint name="joint_5" value="0"/>
+  </group_state>
+
+  <group_state name="rest" group="gripper">
+    <joint name="joint_6" value="0.05"/>
+    <joint name="joint_7" value="0.05"/>
+  </group_state>
+
+
+  <group_state name="default" group="arm">
+    <joint name="joint_1" value="0"/>
+    <joint name="joint_2" value="-0.87"/>
+    <joint name="joint_3" value="0.87"/>
+    <joint name="joint_4" value="0.53"/>
+    <joint name="joint_5" value="0"/>
+  </group_state>
+
+  <group_state name="default" group="gripper">
+    <joint name="joint_6" value="-0.08"/>
+    <joint name="joint_7" value="0.08"/>
+  </group_state>
+
+  <group_state name="default" group="arm_with_gripper">
+    <joint name="joint_1" value="0"/>
+    <joint name="joint_2" value="-0.73"/>
+    <joint name="joint_3" value="0.73"/>
+    <joint name="joint_4" value="0"/>
+    <joint name="joint_5" value="0"/>
+    <joint name="joint_6" value="0.08"/>
+    <joint name="joint_7" value="0.08"/>
+  </group_state>
+
+  <group_state name="dropoff_heavy" group="arm">
+    <joint name="joint_1" value="0.68"/>
+    <joint name="joint_2" value="-0.83"/>
+    <joint name="joint_3" value="0.83"/>
+    <joint name="joint_4" value="0.23"/>
+  </group_state>
+
+  <group_state name="wrist_normal" group="arm">
+    <joint name="joint_5" value="0"/>
+  </group_state>
+
+  <group_state name="wrist_twist" group="arm">
+    <joint name="joint_5" value="-1.47"/>
+  </group_state>
+  
+  <group_state name="gripper_closed" group="gripper">
+    <joint name="joint_6" value="0.03"/> 
+    <joint name="joint_7" value="0.03"/>
+  </group_state>
+
+  <!-- <group_state name="gripper_closed_large" group="gripper">
+    <joint name="joint_6" value="0.035"/> 
+    <joint name="joint_7" value="0.035"/>
+  </group_state> -->
+
+  <group_state name="gripper_open" group="gripper">
+    <joint name="joint_6" value="0.18"/> 
+    <joint name="joint_7" value="0.18"/>
+  </group_state>
+  
+
+
+  <end_effector name="grippa" parent_link="end_eff" group="gripper"/>
+
+  <!-- Disable adjacent or permanently touching parts -->
+  <disable_collisions link1="world" link2="base_link" reason="Adjacent"/>
+  <disable_collisions link1="world" link2="base_link2" reason="Adjacent"/>
+  <disable_collisions link1="base_link" link2="base_servo" reason="Adjacent"/>
+  <disable_collisions link1="base_link2" link2="base_servo" reason="Adjacent"/>
+  <disable_collisions link1="base_link" link2="base_link2" reason="Adjacent"/>
+
+  <disable_collisions link1="base_servo" link2="shoulder_servo" reason="Adjacent"/>
+  <disable_collisions link1="shoulder_servo" link2="lower_arm" reason="Adjacent"/>
+  <disable_collisions link1="lower_arm" link2="elbow_servo" reason="Adjacent"/>
+  <disable_collisions link1="elbow_servo" link2="fore_arm" reason="Adjacent"/>
+  <disable_collisions link1="fore_arm" link2="wrist_servo" reason="Adjacent"/>
+  <disable_collisions link1="wrist_servo" link2="wrist_extension" reason="Adjacent"/>
+  <disable_collisions link1="lower_arm" link2="fore_arm" reason="Never"/>
+  <!-- <disable_collisions link1="wrist_extension" link2="gripper_left" reason="Adjacent"/>
+  <disable_collisions link1="wrist_extension" link2="gripper_right" reason="Adjacent"/> -->
+
+  <disable_collisions link1="wrist_extension" link2="wristX_servo" reason="Adjacent"/>
+  <disable_collisions link1="wristX_servo" link2="arm_hand" reason="Adjacent"/>
+  <disable_collisions link1="arm_hand" link2="gripper_left" reason="Adjacent"/>
+  <disable_collisions link1="arm_hand" link2="gripper_right" reason="Adjacent"/>
+
+  <disable_collisions link1="gripper_left" link2="gripper_right" reason="Never"/>
+
+</robot>

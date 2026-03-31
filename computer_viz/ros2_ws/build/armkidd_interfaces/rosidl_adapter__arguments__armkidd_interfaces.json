@@ -1,0 +1,7 @@
+{
+  "package_name": "armkidd_interfaces",
+  "non_idl_tuples": [
+    "/workspace/run/ros2_ws/src/armkidd_interfaces:msg/WorldTarget.msg",
+    "/workspace/run/ros2_ws/src/armkidd_interfaces:srv/MarkImg.srv"
+  ]
+}

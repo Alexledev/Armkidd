@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from armkidd_interfaces/srv/MarkImg.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/ByteMultiArray.idl"
+
+module armkidd_interfaces {
+  module srv {
+    struct MarkImg_Request {
+      int16 x1;
+
+      int16 y1;
+
+      int16 x2;
+
+      int16 y2;
+
+      int16 choke_x;
+
+      int16 choke_y;
+
+      boolean is_valid;
+    };
+    struct MarkImg_Response {
+      std_msgs::msg::ByteMultiArray image;
+    };
+  };
+};

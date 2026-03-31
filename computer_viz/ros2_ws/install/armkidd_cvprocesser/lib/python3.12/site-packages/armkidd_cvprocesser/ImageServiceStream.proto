@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package imagestream;
+
+service ImageStreamService {
+  // Client streams image + prompt to server
+  rpc ClientSend(stream ImagePromptMessage) returns (Ack);
+}
+
+message ImagePromptMessage {
+  bytes image = 1;  
+}
+
+message Ack {
+  string status = 1;
+}

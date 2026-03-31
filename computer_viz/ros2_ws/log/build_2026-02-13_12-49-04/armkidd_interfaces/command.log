@@ -1,0 +1,2 @@
+Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces
+Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces

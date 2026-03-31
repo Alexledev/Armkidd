@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "armkidd_interfaces__py",
+		"source" : "/workspace/run/ros2_ws/build/armkidd_interfaces/armkidd_interfaces__py"
+	}
+}

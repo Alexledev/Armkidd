@@ -1,0 +1,243 @@
+[8.640s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[8.640s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb402ea50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb4172840>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb4172840>>, mixin_verb=('build',))
+[8.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.773s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[8.774s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[8.775s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[8.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.775s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/run/ros2_ws'
+[8.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.871s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.871s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.871s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.872s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.872s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.873s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.873s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extensions ['ignore', 'ignore_ament_install']
+[8.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extension 'ignore'
+[8.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extension 'ignore_ament_install'
+[8.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extensions ['colcon_pkg']
+[8.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extension 'colcon_pkg'
+[8.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extensions ['colcon_meta']
+[8.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extension 'colcon_meta'
+[8.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extensions ['ros']
+[8.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_cvprocesser) by extension 'ros'
+[8.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/armkidd_cvprocesser' with type 'ros.ament_cmake' and name 'armkidd_cvprocesser'
+[8.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[8.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extension 'ignore'
+[8.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extension 'ignore_ament_install'
+[8.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extensions ['colcon_pkg']
+[8.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extension 'colcon_pkg'
+[8.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extensions ['colcon_meta']
+[8.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extension 'colcon_meta'
+[8.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extensions ['ros']
+[8.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/armkidd_interfaces) by extension 'ros'
+[8.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/armkidd_interfaces' with type 'ros.ament_cmake' and name 'armkidd_interfaces'
+[8.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extensions ['ignore', 'ignore_ament_install']
+[8.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extension 'ignore'
+[8.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extension 'ignore_ament_install'
+[8.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extensions ['colcon_pkg']
+[8.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extension 'colcon_pkg'
+[8.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extensions ['colcon_meta']
+[8.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extension 'colcon_meta'
+[8.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extensions ['ros']
+[8.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extension 'ros'
+[8.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extensions ['cmake', 'python']
+[8.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extension 'cmake'
+[8.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extension 'python'
+[8.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extensions ['python_setup_py']
+[8.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/other) by extension 'python_setup_py'
+[8.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'cmake_args' from command line to 'None'
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'cmake_target' from command line to 'None'
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'cmake_clean_cache' from command line to 'False'
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'cmake_clean_first' from command line to 'False'
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'cmake_force_configure' from command line to 'False'
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'ament_cmake_args' from command line to 'None'
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'catkin_cmake_args' from command line to 'None'
+[8.956s] Level 5:colcon.colcon_core.verb:set package 'armkidd_cvprocesser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.956s] DEBUG:colcon.colcon_core.verb:Building package 'armkidd_cvprocesser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/run/ros2_ws/build/armkidd_cvprocesser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/run/ros2_ws/install/armkidd_cvprocesser', 'merge_install': False, 'path': '/workspace/run/ros2_ws/src/armkidd_cvprocesser', 'symlink_install': False, 'test_result_base': None}
+[8.957s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'cmake_args' from command line to 'None'
+[8.957s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'cmake_target' from command line to 'None'
+[8.957s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.958s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[8.958s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[8.958s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[8.958s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[8.958s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[8.958s] Level 5:colcon.colcon_core.verb:set package 'armkidd_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.958s] DEBUG:colcon.colcon_core.verb:Building package 'armkidd_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/run/ros2_ws/build/armkidd_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/run/ros2_ws/install/armkidd_interfaces', 'merge_install': False, 'path': '/workspace/run/ros2_ws/src/armkidd_interfaces', 'symlink_install': False, 'test_result_base': None}
+[8.958s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.962s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/run/ros2_ws/src/armkidd_cvprocesser' with build type 'ament_cmake'
+[8.963s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/run/ros2_ws/src/armkidd_cvprocesser'
+[8.971s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.994s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/run/ros2_ws/src/armkidd_interfaces' with build type 'ament_cmake'
+[8.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/run/ros2_ws/src/armkidd_interfaces'
+[8.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_interfaces -- -j6 -l6
+[9.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_cvprocesser -- -j6 -l6
+[10.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_interfaces -- -j6 -l6
+[10.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_interfaces
+[10.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_cvprocesser -- -j6 -l6
+[10.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_cvprocesser
+[10.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armkidd_cvprocesser)
+[10.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_cvprocesser
+[10.392s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser' for CMake module files
+[10.398s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser' for CMake config files
+[10.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_cvprocesser', 'cmake_prefix_path')
+[10.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/cmake_prefix_path.ps1'
+[10.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/cmake_prefix_path.dsv'
+[10.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/cmake_prefix_path.sh'
+[10.408s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib'
+[10.409s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/bin'
+[10.409s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/pkgconfig/armkidd_cvprocesser.pc'
+[10.416s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages'
+[10.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_cvprocesser', 'pythonpath')
+[10.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/pythonpath.ps1'
+[10.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/pythonpath.dsv'
+[10.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/pythonpath.sh'
+[10.424s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/bin'
+[10.425s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.ps1'
+[10.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.dsv'
+[10.430s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.sh'
+[10.434s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.bash'
+[10.437s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.zsh'
+[10.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/colcon-core/packages/armkidd_cvprocesser)
+[10.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armkidd_cvprocesser)
+[10.442s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser' for CMake module files
+[10.444s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser' for CMake config files
+[10.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_cvprocesser', 'cmake_prefix_path')
+[10.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/cmake_prefix_path.ps1'
+[10.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/cmake_prefix_path.dsv'
+[10.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/cmake_prefix_path.sh'
+[10.450s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib'
+[10.451s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/bin'
+[10.451s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/pkgconfig/armkidd_cvprocesser.pc'
+[10.452s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages'
+[10.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_cvprocesser', 'pythonpath')
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/pythonpath.ps1'
+[10.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/pythonpath.dsv'
+[10.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/hook/pythonpath.sh'
+[10.458s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_cvprocesser/bin'
+[10.458s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.ps1'
+[10.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.dsv'
+[10.462s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.sh'
+[10.463s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.bash'
+[10.464s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.zsh'
+[10.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/run/ros2_ws/install/armkidd_cvprocesser/share/colcon-core/packages/armkidd_cvprocesser)
+[10.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armkidd_interfaces)
+[10.472s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces' for CMake module files
+[10.475s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces' for CMake config files
+[10.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_interfaces
+[10.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_interfaces', 'cmake_prefix_path')
+[10.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/cmake_prefix_path.ps1'
+[10.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/cmake_prefix_path.dsv'
+[10.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/cmake_prefix_path.sh'
+[10.484s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/lib'
+[10.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_interfaces', 'ld_library_path_lib')
+[10.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/ld_library_path_lib.ps1'
+[10.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/ld_library_path_lib.dsv'
+[10.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/ld_library_path_lib.sh'
+[10.488s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/bin'
+[10.489s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/pkgconfig/armkidd_interfaces.pc'
+[10.489s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages'
+[10.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_interfaces', 'pythonpath')
+[10.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/pythonpath.ps1'
+[10.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/pythonpath.dsv'
+[10.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/pythonpath.sh'
+[10.495s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/bin'
+[10.496s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.ps1'
+[10.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.dsv'
+[10.499s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.sh'
+[10.500s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.bash'
+[10.502s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.zsh'
+[10.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/run/ros2_ws/install/armkidd_interfaces/share/colcon-core/packages/armkidd_interfaces)
+[10.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armkidd_interfaces)
+[10.504s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces' for CMake module files
+[10.507s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces' for CMake config files
+[10.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_interfaces', 'cmake_prefix_path')
+[10.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/cmake_prefix_path.ps1'
+[10.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/cmake_prefix_path.dsv'
+[10.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/cmake_prefix_path.sh'
+[10.512s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/lib'
+[10.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_interfaces', 'ld_library_path_lib')
+[10.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/ld_library_path_lib.ps1'
+[10.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/ld_library_path_lib.dsv'
+[10.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/ld_library_path_lib.sh'
+[10.515s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/bin'
+[10.515s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/pkgconfig/armkidd_interfaces.pc'
+[10.516s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages'
+[10.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('armkidd_interfaces', 'pythonpath')
+[10.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/pythonpath.ps1'
+[10.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/pythonpath.dsv'
+[10.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/hook/pythonpath.sh'
+[10.520s] Level 1:colcon.colcon_core.environment:checking '/workspace/run/ros2_ws/install/armkidd_interfaces/bin'
+[10.520s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.ps1'
+[10.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.dsv'
+[10.523s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.sh'
+[10.524s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.bash'
+[10.525s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.zsh'
+[10.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/run/ros2_ws/install/armkidd_interfaces/share/colcon-core/packages/armkidd_interfaces)
+[10.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.529s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.558s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.558s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[10.560s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.560s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/run/ros2_ws/install/local_setup.ps1'
+[10.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/run/ros2_ws/install/_local_setup_util_ps1.py'
+[10.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/run/ros2_ws/install/setup.ps1'
+[10.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/run/ros2_ws/install/local_setup.sh'
+[10.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/run/ros2_ws/install/_local_setup_util_sh.py'
+[10.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/run/ros2_ws/install/setup.sh'
+[10.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/run/ros2_ws/install/local_setup.bash'
+[10.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/run/ros2_ws/install/setup.bash'
+[10.584s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/run/ros2_ws/install/local_setup.zsh'
+[10.586s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/run/ros2_ws/install/setup.zsh'

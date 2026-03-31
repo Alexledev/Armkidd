@@ -1,0 +1,45 @@
+[0.030s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser
+[0.459s] -- The C compiler identification is GNU 13.3.0
+[0.646s] -- The CXX compiler identification is GNU 13.3.0
+[0.693s] -- Detecting C compiler ABI info
+[0.936s] -- Detecting C compiler ABI info - done
+[0.974s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.976s] -- Detecting C compile features
+[0.977s] -- Detecting C compile features - done
+[0.999s] -- Detecting CXX compiler ABI info
+[1.205s] -- Detecting CXX compiler ABI info - done
+[1.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.245s] -- Detecting CXX compile features
+[1.246s] -- Detecting CXX compile features - done
+[1.262s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.540s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.814s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.922s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.955s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.283s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.290s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[2.365s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.520s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.523s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.606s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.683s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[2.683s]   By not providing "Findimage_transport.cmake" in CMAKE_MODULE_PATH this
+[2.683s]   project has asked CMake to find a package configuration file provided by
+[2.683s]   "image_transport", but CMake did not find one.
+[2.684s] 
+[2.684s]   Could not find a package configuration file provided by "image_transport"
+[2.684s]   with any of the following names:
+[2.684s] 
+[2.684s]     image_transportConfig.cmake
+[2.685s]     image_transport-config.cmake
+[2.685s] 
+[2.685s]   Add the installation prefix of "image_transport" to CMAKE_PREFIX_PATH or
+[2.685s]   set "image_transport_DIR" to a directory containing one of the above files.
+[2.685s]   If "image_transport" provides a separate development package or SDK, be
+[2.686s]   sure it has been installed.
+[2.686s] 
+[2.686s] [0m
+[2.686s] -- Configuring incomplete, errors occurred!
+[2.703s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser

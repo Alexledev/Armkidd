@@ -1,0 +1,259 @@
+[0.000000] (-) TimerEvent: {}
+[0.003343] (-) JobUnselected: {'identifier': 'armkidd_cvprocesser'}
+[0.003580] (armkidd_interfaces) JobQueued: {'identifier': 'armkidd_interfaces', 'dependencies': OrderedDict()}
+[0.005319] (armkidd_interfaces) JobStarted: {'identifier': 'armkidd_interfaces'}
+[0.043146] (armkidd_interfaces) JobProgress: {'identifier': 'armkidd_interfaces', 'progress': 'cmake'}
+[0.047724] (armkidd_interfaces) JobProgress: {'identifier': 'armkidd_interfaces', 'progress': 'build'}
+[0.048349] (armkidd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/run/ros2_ws/build/armkidd_interfaces', '--', '-j6', '-l6'], 'cwd': '/workspace/run/ros2_ws/build/armkidd_interfaces', 'env': OrderedDict({'HOSTNAME': 'jetsonbot', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/run/ros2_ws/install/armkidd_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/onnxruntime/lib', 'HOME': '/root', 'CYCLONEDDS_URI': 'cyclone.xml', 'OLDPWD': '/workspace/run', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'TRANSFORMERS_NO_TF': '1', 'COLCON_PREFIX_PATH': '/workspace/run/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/opt/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/workspace/run/ros2_ws/install/armkidd_interfaces:/workspace/run/ros2_ws/install/armkidd_cvprocesser:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/run/ros2_ws/build/armkidd_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages:/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/run/ros2_ws/install/armkidd_interfaces:/workspace/run/ros2_ws/install/armkidd_cvprocesser:/opt/ros/jazzy'}), 'shell': False}
+[0.099820] (-) TimerEvent: {}
+[0.200507] (-) TimerEvent: {}
+[0.218788] (armkidd_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.299060] (armkidd_interfaces) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.300594] (-) TimerEvent: {}
+[0.401042] (-) TimerEvent: {}
+[0.501669] (-) TimerEvent: {}
+[0.575424] (armkidd_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.599462] (armkidd_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601770] (-) TimerEvent: {}
+[0.702280] (-) TimerEvent: {}
+[0.742040] (armkidd_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802470] (-) TimerEvent: {}
+[0.850708] (armkidd_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.858312] (armkidd_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.902651] (-) TimerEvent: {}
+[1.003332] (-) TimerEvent: {}
+[1.104016] (-) TimerEvent: {}
+[1.182962] (armkidd_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.204206] (-) TimerEvent: {}
+[1.304837] (-) TimerEvent: {}
+[1.319881] (armkidd_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.325646] (armkidd_interfaces) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.398304] (armkidd_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.404998] (-) TimerEvent: {}
+[1.505842] (-) TimerEvent: {}
+[1.607190] (-) TimerEvent: {}
+[1.707782] (-) TimerEvent: {}
+[1.808389] (-) TimerEvent: {}
+[1.908963] (-) TimerEvent: {}
+[2.009529] (-) TimerEvent: {}
+[2.110119] (-) TimerEvent: {}
+[2.210675] (-) TimerEvent: {}
+[2.311266] (-) TimerEvent: {}
+[2.411881] (-) TimerEvent: {}
+[2.440279] (armkidd_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed \n'}
+[2.492787] (armkidd_interfaces) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.512052] (-) TimerEvent: {}
+[2.612672] (-) TimerEvent: {}
+[2.713330] (-) TimerEvent: {}
+[2.813947] (-) TimerEvent: {}
+[2.914560] (-) TimerEvent: {}
+[3.015207] (-) TimerEvent: {}
+[3.115875] (-) TimerEvent: {}
+[3.216495] (-) TimerEvent: {}
+[3.248421] (armkidd_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.316694] (-) TimerEvent: {}
+[3.417291] (-) TimerEvent: {}
+[3.518874] (-) TimerEvent: {}
+[3.619588] (-) TimerEvent: {}
+[3.720221] (-) TimerEvent: {}
+[3.773246] (armkidd_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.820393] (-) TimerEvent: {}
+[3.921312] (-) TimerEvent: {}
+[4.021951] (-) TimerEvent: {}
+[4.126669] (-) TimerEvent: {}
+[4.227360] (-) TimerEvent: {}
+[4.327998] (-) TimerEvent: {}
+[4.428850] (-) TimerEvent: {}
+[4.443505] (armkidd_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.451685] (armkidd_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.531208] (-) TimerEvent: {}
+[4.635212] (-) TimerEvent: {}
+[4.739182] (-) TimerEvent: {}
+[4.839807] (-) TimerEvent: {}
+[4.940451] (-) TimerEvent: {}
+[5.041121] (-) TimerEvent: {}
+[5.141737] (-) TimerEvent: {}
+[5.242364] (-) TimerEvent: {}
+[5.331557] (armkidd_interfaces) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.342585] (-) TimerEvent: {}
+[5.443303] (-) TimerEvent: {}
+[5.477281] (armkidd_interfaces) StdoutLine: {'line': b'-- Configuring done (5.3s)\n'}
+[5.543487] (-) TimerEvent: {}
+[5.641081] (armkidd_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.643649] (-) TimerEvent: {}
+[5.678530] (armkidd_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspace/run/ros2_ws/build/armkidd_interfaces\n'}
+[5.747226] (-) TimerEvent: {}
+[5.771617] (armkidd_interfaces) StdoutLine: {'line': b'[  2%] Built target armkidd_interfaces__rosidl_generator_type_description\n'}
+[5.847748] (-) TimerEvent: {}
+[5.880186] (armkidd_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_armkidd_interfaces\n'}
+[5.939092] (armkidd_interfaces) StdoutLine: {'line': b'[ 17%] Built target armkidd_interfaces__rosidl_generator_c\n'}
+[5.947925] (-) TimerEvent: {}
+[6.048561] (-) TimerEvent: {}
+[6.149203] (-) TimerEvent: {}
+[6.249837] (-) TimerEvent: {}
+[6.350435] (-) TimerEvent: {}
+[6.451236] (-) TimerEvent: {}
+[6.551873] (-) TimerEvent: {}
+[6.612089] (armkidd_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.644802] (armkidd_interfaces) StdoutLine: {'line': b'writing armkidd_interfaces.egg-info/PKG-INFO\n'}
+[6.645995] (armkidd_interfaces) StdoutLine: {'line': b'writing dependency_links to armkidd_interfaces.egg-info/dependency_links.txt\n'}
+[6.646809] (armkidd_interfaces) StdoutLine: {'line': b'writing top-level names to armkidd_interfaces.egg-info/top_level.txt\n'}
+[6.651999] (-) TimerEvent: {}
+[6.753991] (armkidd_interfaces) StdoutLine: {'line': b"reading manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'\n"}
+[6.754517] (-) TimerEvent: {}
+[6.756961] (armkidd_interfaces) StdoutLine: {'line': b"writing manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'\n"}
+[6.854749] (-) TimerEvent: {}
+[6.889635] (armkidd_interfaces) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_armkidd_interfaces_egg\n'}
+[6.958828] (-) TimerEvent: {}
+[6.973649] (armkidd_interfaces) StdoutLine: {'line': b'[ 26%] Built target armkidd_interfaces__rosidl_typesupport_c\n'}
+[7.048029] (armkidd_interfaces) StdoutLine: {'line': b'[ 35%] Built target armkidd_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.059255] (-) TimerEvent: {}
+[7.109091] (armkidd_interfaces) StdoutLine: {'line': b'[ 44%] Built target armkidd_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.159819] (-) TimerEvent: {}
+[7.162195] (armkidd_interfaces) StdoutLine: {'line': b'[ 47%] Built target armkidd_interfaces__cpp\n'}
+[7.222794] (armkidd_interfaces) StdoutLine: {'line': b'[ 55%] Built target armkidd_interfaces__rosidl_typesupport_cpp\n'}
+[7.262631] (-) TimerEvent: {}
+[7.282134] (armkidd_interfaces) StdoutLine: {'line': b'[ 64%] Built target armkidd_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.343819] (armkidd_interfaces) StdoutLine: {'line': b'[ 73%] Built target armkidd_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.363243] (-) TimerEvent: {}
+[7.391006] (armkidd_interfaces) StdoutLine: {'line': b'[ 73%] Built target armkidd_interfaces\n'}
+[7.439687] (armkidd_interfaces) StdoutLine: {'line': b'[ 76%] Built target armkidd_interfaces__py\n'}
+[7.464902] (-) TimerEvent: {}
+[7.503496] (armkidd_interfaces) StdoutLine: {'line': b'[ 82%] Built target armkidd_interfaces__rosidl_generator_py\n'}
+[7.558862] (armkidd_interfaces) StdoutLine: {'line': b'[ 88%] Built target armkidd_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[7.565084] (-) TimerEvent: {}
+[7.615337] (armkidd_interfaces) StdoutLine: {'line': b'[ 94%] Built target armkidd_interfaces_s__rosidl_typesupport_c\n'}
+[7.667239] (-) TimerEvent: {}
+[7.671244] (armkidd_interfaces) StdoutLine: {'line': b'[100%] Built target armkidd_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[7.702348] (armkidd_interfaces) CommandEnded: {'returncode': 0}
+[7.703280] (armkidd_interfaces) JobProgress: {'identifier': 'armkidd_interfaces', 'progress': 'install'}
+[7.723330] (armkidd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/run/ros2_ws/build/armkidd_interfaces'], 'cwd': '/workspace/run/ros2_ws/build/armkidd_interfaces', 'env': OrderedDict({'HOSTNAME': 'jetsonbot', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/run/ros2_ws/install/armkidd_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/onnxruntime/lib', 'HOME': '/root', 'CYCLONEDDS_URI': 'cyclone.xml', 'OLDPWD': '/workspace/run', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'TRANSFORMERS_NO_TF': '1', 'COLCON_PREFIX_PATH': '/workspace/run/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/opt/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/workspace/run/ros2_ws/install/armkidd_interfaces:/workspace/run/ros2_ws/install/armkidd_cvprocesser:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/run/ros2_ws/build/armkidd_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages:/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/run/ros2_ws/install/armkidd_interfaces:/workspace/run/ros2_ws/install/armkidd_cvprocesser:/opt/ros/jazzy'}), 'shell': False}
+[7.742486] (armkidd_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.743476] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/ament_index/resource_index/rosidl_interfaces/armkidd_interfaces\n'}
+[7.743889] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg/ArmkiddTarget.json\n'}
+[7.744123] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces\n'}
+[7.744583] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg\n'}
+[7.744804] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/armkidd_target.h\n'}
+[7.745082] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.745326] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail\n'}
+[7.745811] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.h\n'}
+[7.746115] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__description.c\n'}
+[7.746329] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__functions.h\n'}
+[7.746740] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__struct.h\n'}
+[7.746948] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.c\n'}
+[7.751945] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__functions.c\n'}
+[7.752306] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/library_path.sh\n'}
+[7.752551] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/library_path.dsv\n'}
+[7.752949] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_generator_c.so\n'}
+[7.753167] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces\n'}
+[7.753453] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg\n'}
+[7.753727] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail\n'}
+[7.753960] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__rosidl_typesupport_fastrtps_c.h\n'}
+[7.754218] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.754655] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.754925] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces\n'}
+[7.755417] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg\n'}
+[7.755662] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail\n'}
+[7.755851] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.c\n'}
+[7.756038] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__rosidl_typesupport_introspection_c.h\n'}
+[7.756252] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.756444] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.756628] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_c.so\n'}
+[7.756812] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces\n'}
+[7.756993] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg\n'}
+[7.757174] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.757354] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail\n'}
+[7.757528] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__struct.hpp\n'}
+[7.757711] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__builder.hpp\n'}
+[7.757893] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.hpp\n'}
+[7.758142] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__traits.hpp\n'}
+[7.758328] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/armkidd_target.hpp\n'}
+[7.758511] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces\n'}
+[7.758690] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg\n'}
+[7.758868] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail\n'}
+[7.759099] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.759309] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/dds_fastrtps\n'}
+[7.759494] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.759713] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.759900] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces\n'}
+[7.760083] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg\n'}
+[7.760262] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail\n'}
+[7.760441] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.760632] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.cpp\n'}
+[7.760816] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.760998] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.761178] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/pythonpath.sh\n'}
+[7.761352] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/pythonpath.dsv\n'}
+[7.761531] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info\n'}
+[7.761750] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.761942] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.762125] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.762308] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.762490] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces\n'}
+[7.762669] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg\n'}
+[7.762850] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg/_armkidd_target_s.c\n'}
+[7.767175] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg/__init__.py\n'}
+[7.767721] (-) TimerEvent: {}
+[7.769146] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg/_armkidd_target.py\n'}
+[7.769553] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/__init__.py\n'}
+[7.769829] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.770084] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.770282] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.770471] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.770659] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.770839] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.867971] (-) TimerEvent: {}
+[7.882674] (armkidd_interfaces) StdoutLine: {'line': b"Listing '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces'...\n"}
+[7.885683] (armkidd_interfaces) StdoutLine: {'line': b"Compiling '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/__init__.py'...\n"}
+[7.887590] (armkidd_interfaces) StdoutLine: {'line': b"Listing '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg'...\n"}
+[7.910537] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.911243] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.911865] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.912486] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_generator_py.so\n'}
+[7.912837] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg/ArmkiddTarget.idl\n'}
+[7.913149] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg/ArmkiddTarget.msg\n'}
+[7.913375] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg\n'}
+[7.913693] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg/ArmkiddTarget.msg\n'}
+[7.914182] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/ament_index/resource_index/package_run_dependencies/armkidd_interfaces\n'}
+[7.914572] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/ament_index/resource_index/parent_prefix_path/armkidd_interfaces\n'}
+[7.914777] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/ament_prefix_path.sh\n'}
+[7.915112] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.915331] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/path.sh\n'}
+[7.915525] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/path.dsv\n'}
+[7.915716] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/local_setup.bash\n'}
+[7.916233] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/local_setup.sh\n'}
+[7.916444] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/local_setup.zsh\n'}
+[7.916934] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/local_setup.dsv\n'}
+[7.917150] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.dsv\n'}
+[7.917647] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/ament_index/resource_index/packages/armkidd_interfaces\n'}
+[7.917855] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.918348] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.918556] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.919176] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.919395] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.919587] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.919777] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.921026] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.921251] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.921634] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.921898] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.922260] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.922549] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.922754] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.923216] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.923727] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.923941] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.924140] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.924330] (armkidd_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.927626] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.927883] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.928093] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.930716] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.931414] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.931797] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfacesConfig.cmake\n'}
+[7.932278] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfacesConfig-version.cmake\n'}
+[7.932845] (armkidd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.xml\n'}
+[7.933103] (armkidd_interfaces) CommandEnded: {'returncode': 0}
+[7.968110] (-) TimerEvent: {}
+[8.019789] (armkidd_interfaces) JobEnded: {'identifier': 'armkidd_interfaces', 'rc': 0}
+[8.021804] (-) EventReactorShutdown: {}

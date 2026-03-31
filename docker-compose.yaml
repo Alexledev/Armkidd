@@ -1,0 +1,100 @@
+services:
+
+  stt_whisper:
+    image: stt_whisper
+    container_name: stt_whisper
+    network_mode: host
+    privileged: true
+    runtime: nvidia
+
+    volumes:
+      - /home/jetsonalex/Armkidd/stt_whisper:/workspace/run
+      - /home/jetsonalex/Armkidd/shared/config.yaml:/workspace/run/config.yaml
+
+      - /lib/firmware:/lib/firmware
+      - /usr/local/cuda:/usr/local/cuda:ro
+      - /usr/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu:ro
+      - /home/jetsonalex/onnxruntime/include:/opt/onnxruntime/include
+      - /home/jetsonalex/onnxruntime/onnxruntime:/opt/onnxruntime/onnxruntime
+      - /home/jetsonalex/onnxruntime/build/Linux/Release:/opt/onnxruntime/lib:ro
+      
+
+    environment:
+      LD_LIBRARY_PATH: /usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/onnxruntime/lib
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility
+
+
+    devices:
+      # - /dev/video0:/dev/video0
+      - /dev/snd:/dev/snd
+      - /dev/bus/usb:/dev/bus/usb
+
+    group_add:
+      - audio
+      - video 
+
+    stdin_open: true
+    tty: true
+    
+    working_dir: /workspace/run
+    command: python3 app.py
+
+  computer_viz:
+    image: computer_viz
+    container_name: computer_viz
+    network_mode: host
+    privileged: true
+    runtime: nvidia
+
+    volumes:
+      - /home/jetsonalex/Armkidd/computer_viz:/workspace/run
+      - /home/jetsonalex/ComputerViz:/workspace/ComputerViz
+      - /home/jetsonalex/Armkidd/shared/config.yaml:/workspace/run/config.yaml
+
+      - /lib/firmware:/lib/firmware
+      - /usr/local/cuda:/usr/local/cuda:ro
+      - /usr/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu:ro
+      - /home/jetsonalex/onnxruntime/include:/opt/onnxruntime/include
+      - /home/jetsonalex/onnxruntime/onnxruntime:/opt/onnxruntime/onnxruntime
+      - /home/jetsonalex/onnxruntime/build/Linux/Release:/opt/onnxruntime/lib:ro
+      
+
+    environment:
+      LD_LIBRARY_PATH: /usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/onnxruntime/lib
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility
+
+    stdin_open: true
+    tty: true
+
+    working_dir: /workspace/run
+    command: >
+      bash -c "
+      source /opt/ros/jazzy/setup.bash &&
+      source ros2_ws/install/setup.bash &&
+      ros2 run armkidd_cvprocesser cv_processer_node.py
+      "
+
+  dashboard_app:
+    image: dashboard_app
+    container_name: dashboard_app
+    network_mode: host
+
+    volumes:
+      - /home/jetsonalex/Armkidd/dashboard_app:/workspace/run
+
+      - /home/jetsonalex/Armkidd/shared/config.yaml:/workspace/run/webServer/config/config.yaml
+      - /home/jetsonalex/Armkidd/armkidd_hub/ros2_ws/install/armkidd_description/share/armkidd_description/urdf:/workspace/run/webServer/urdf
+
+    stdin_open: true
+    tty: true
+
+    working_dir: /workspace/run
+    command: >
+      bash -c "
+      cd /workspace/run/webUI &&
+      ./run.sh &
+      cd /workspace/run/webServer &&
+      python3 webServer_host.py
+      "

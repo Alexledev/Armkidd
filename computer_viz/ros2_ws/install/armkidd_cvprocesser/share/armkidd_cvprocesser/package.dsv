@@ -1,0 +1,11 @@
+source;share/armkidd_cvprocesser/hook/cmake_prefix_path.ps1
+source;share/armkidd_cvprocesser/hook/cmake_prefix_path.dsv
+source;share/armkidd_cvprocesser/hook/cmake_prefix_path.sh
+source;share/armkidd_cvprocesser/hook/pythonpath.ps1
+source;share/armkidd_cvprocesser/hook/pythonpath.dsv
+source;share/armkidd_cvprocesser/hook/pythonpath.sh
+source;share/armkidd_cvprocesser/local_setup.bash
+source;share/armkidd_cvprocesser/local_setup.dsv
+source;share/armkidd_cvprocesser/local_setup.ps1
+source;share/armkidd_cvprocesser/local_setup.sh
+source;share/armkidd_cvprocesser/local_setup.zsh

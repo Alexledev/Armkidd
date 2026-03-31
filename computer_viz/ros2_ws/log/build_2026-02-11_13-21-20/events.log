@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001325] (armkidd_cvprocesser) JobQueued: {'identifier': 'armkidd_cvprocesser', 'dependencies': OrderedDict()}
+[0.001433] (armkidd_cvprocesser) JobStarted: {'identifier': 'armkidd_cvprocesser'}
+[0.020105] (armkidd_cvprocesser) JobProgress: {'identifier': 'armkidd_cvprocesser', 'progress': 'cmake'}
+[0.021654] (armkidd_cvprocesser) Command: {'cmd': ['/usr/bin/cmake', '/workspace/run/ros2_ws/src/armkidd_cvprocesser', '-DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser'], 'cwd': '/workspace/run/ros2_ws/build/armkidd_cvprocesser', 'env': OrderedDict({'HOSTNAME': 'jetsonbot', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/onnxruntime/lib', 'HOME': '/root', 'CYCLONEDDS_URI': 'cyclone.xml', 'OLDPWD': '/workspace/run', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'TRANSFORMERS_NO_TF': '1', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/opt/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/run/ros2_ws/build/armkidd_cvprocesser', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.073990] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099477] (-) TimerEvent: {}
+[0.200063] (-) TimerEvent: {}
+[0.301494] (-) TimerEvent: {}
+[0.402022] (-) TimerEvent: {}
+[0.502578] (-) TimerEvent: {}
+[0.562260] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.602773] (-) TimerEvent: {}
+[0.630042] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.651480] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.677715] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.702894] (-) TimerEvent: {}
+[0.708627] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.803122] (-) TimerEvent: {}
+[0.840771] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.844217] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.891870] (armkidd_cvprocesser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.903206] (-) TimerEvent: {}
+[1.003782] (-) TimerEvent: {}
+[1.007975] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.008728] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.070602] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.103892] (-) TimerEvent: {}
+[1.114873] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/jazzy/share/vision_msgs/cmake)\n'}
+[1.204055] (-) TimerEvent: {}
+[1.304578] (-) TimerEvent: {}
+[1.405123] (-) TimerEvent: {}
+[1.505690] (-) TimerEvent: {}
+[1.606261] (-) TimerEvent: {}
+[1.651692] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[1.682212] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.692649] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Build files have been written to: /workspace/run/ros2_ws/build/armkidd_cvprocesser\n'}
+[1.706406] (-) TimerEvent: {}
+[1.711077] (armkidd_cvprocesser) CommandEnded: {'returncode': 0}
+[1.714254] (armkidd_cvprocesser) JobProgress: {'identifier': 'armkidd_cvprocesser', 'progress': 'build'}
+[1.715352] (armkidd_cvprocesser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/run/ros2_ws/build/armkidd_cvprocesser', '--', '-j6', '-l6'], 'cwd': '/workspace/run/ros2_ws/build/armkidd_cvprocesser', 'env': OrderedDict({'HOSTNAME': 'jetsonbot', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/onnxruntime/lib', 'HOME': '/root', 'CYCLONEDDS_URI': 'cyclone.xml', 'OLDPWD': '/workspace/run', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'TRANSFORMERS_NO_TF': '1', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/opt/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/run/ros2_ws/build/armkidd_cvprocesser', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[1.806604] (-) TimerEvent: {}
+[1.846182] (armkidd_cvprocesser) StdoutLine: {'line': b'Built target ament_cmake_python_copy_armkidd_cvprocesser\n'}
+[1.906758] (-) TimerEvent: {}
+[2.007318] (-) TimerEvent: {}
+[2.107894] (-) TimerEvent: {}
+[2.208442] (-) TimerEvent: {}
+[2.308967] (-) TimerEvent: {}
+[2.349322] (armkidd_cvprocesser) StdoutLine: {'line': b'running egg_info\n'}
+[2.377015] (armkidd_cvprocesser) StdoutLine: {'line': b'creating armkidd_cvprocesser.egg-info\n'}
+[2.377823] (armkidd_cvprocesser) StdoutLine: {'line': b'writing armkidd_cvprocesser.egg-info/PKG-INFO\n'}
+[2.378239] (armkidd_cvprocesser) StdoutLine: {'line': b'writing dependency_links to armkidd_cvprocesser.egg-info/dependency_links.txt\n'}
+[2.378748] (armkidd_cvprocesser) StdoutLine: {'line': b'writing top-level names to armkidd_cvprocesser.egg-info/top_level.txt\n'}
+[2.379285] (armkidd_cvprocesser) StdoutLine: {'line': b"writing manifest file 'armkidd_cvprocesser.egg-info/SOURCES.txt'\n"}
+[2.409059] (-) TimerEvent: {}
+[2.465611] (armkidd_cvprocesser) StdoutLine: {'line': b"reading manifest file 'armkidd_cvprocesser.egg-info/SOURCES.txt'\n"}
+[2.467530] (armkidd_cvprocesser) StdoutLine: {'line': b"writing manifest file 'armkidd_cvprocesser.egg-info/SOURCES.txt'\n"}
+[2.509228] (-) TimerEvent: {}
+[2.558640] (armkidd_cvprocesser) StdoutLine: {'line': b'Built target ament_cmake_python_build_armkidd_cvprocesser_egg\n'}
+[2.583504] (armkidd_cvprocesser) CommandEnded: {'returncode': 0}
+[2.584967] (armkidd_cvprocesser) JobProgress: {'identifier': 'armkidd_cvprocesser', 'progress': 'install'}
+[2.604329] (armkidd_cvprocesser) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/run/ros2_ws/build/armkidd_cvprocesser'], 'cwd': '/workspace/run/ros2_ws/build/armkidd_cvprocesser', 'env': OrderedDict({'HOSTNAME': 'jetsonbot', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/onnxruntime/lib', 'HOME': '/root', 'CYCLONEDDS_URI': 'cyclone.xml', 'OLDPWD': '/workspace/run', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'TRANSFORMERS_NO_TF': '1', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/opt/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/run/ros2_ws/build/armkidd_cvprocesser', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[2.609304] (-) TimerEvent: {}
+[2.622139] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.622939] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/pythonpath.sh\n'}
+[2.623356] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/pythonpath.dsv\n'}
+[2.623595] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info\n'}
+[2.624097] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[2.624364] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[2.624617] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[2.624852] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[2.625123] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser\n'}
+[2.625320] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/cv_processer_node.py\n'}
+[2.625508] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/__init__.py\n'}
+[2.703033] (armkidd_cvprocesser) StdoutLine: {'line': b"Listing '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser'...\n"}
+[2.703552] (armkidd_cvprocesser) StdoutLine: {'line': b"Compiling '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/__init__.py'...\n"}
+[2.706195] (armkidd_cvprocesser) StdoutLine: {'line': b"Compiling '/workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/python3.12/site-packages/armkidd_cvprocesser/cv_processer_node.py'...\n"}
+[2.709418] (-) TimerEvent: {}
+[2.723749] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser\n'}
+[2.724652] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/cv_processer_node.py\n'}
+[2.725076] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib//armkidd_cvprocesser/__init__.py\n'}
+[2.725307] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Up-to-date: /workspace/run/ros2_ws/install/armkidd_cvprocesser/lib/armkidd_cvprocesser/cv_processer_node.py\n'}
+[2.725571] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/ament_index/resource_index/package_run_dependencies/armkidd_cvprocesser\n'}
+[2.725819] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/ament_index/resource_index/parent_prefix_path/armkidd_cvprocesser\n'}
+[2.726072] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/ament_prefix_path.sh\n'}
+[2.726325] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/ament_prefix_path.dsv\n'}
+[2.726598] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/path.sh\n'}
+[2.726884] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/environment/path.dsv\n'}
+[2.727125] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/local_setup.bash\n'}
+[2.727389] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/local_setup.sh\n'}
+[2.727757] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/local_setup.zsh\n'}
+[2.728150] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/local_setup.dsv\n'}
+[2.728547] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.dsv\n'}
+[2.729117] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/ament_index/resource_index/packages/armkidd_cvprocesser\n'}
+[2.729647] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/cmake/armkidd_cvprocesserConfig.cmake\n'}
+[2.729978] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/cmake/armkidd_cvprocesserConfig-version.cmake\n'}
+[2.730375] (armkidd_cvprocesser) StdoutLine: {'line': b'-- Installing: /workspace/run/ros2_ws/install/armkidd_cvprocesser/share/armkidd_cvprocesser/package.xml\n'}
+[2.736859] (armkidd_cvprocesser) CommandEnded: {'returncode': 0}
+[2.809844] (-) TimerEvent: {}
+[2.811654] (armkidd_cvprocesser) JobEnded: {'identifier': 'armkidd_cvprocesser', 'rc': 0}
+[2.814299] (-) EventReactorShutdown: {}

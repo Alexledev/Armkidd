@@ -1,0 +1,218 @@
+[0.074s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_interfaces -- -j6 -l6
+[0.251s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.322s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.587s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.820s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.827s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.066s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.189s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.196s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.274s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.585s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[2.642s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.458s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.624s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.526s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.704s] -- Configuring done (5.5s)
+[5.890s] -- Generating done (0.1s)
+[5.928s] -- Build files have been written to: /workspace/run/ros2_ws/build/armkidd_interfaces
+[6.099s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.622s] [  2%] Built target armkidd_interfaces__rosidl_generator_type_description
+[6.701s] [  2%] Built target ament_cmake_python_copy_armkidd_interfaces
+[6.727s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.596s] [  8%] [32mBuilding C object CMakeFiles/armkidd_interfaces__rosidl_generator_c.dir/rosidl_generator_c/armkidd_interfaces/msg/detail/armkidd_target__description.c.o[0m
+[7.787s] [ 11%] [32mBuilding C object CMakeFiles/armkidd_interfaces__rosidl_generator_c.dir/rosidl_generator_c/armkidd_interfaces/msg/detail/armkidd_target__type_support.c.o[0m
+[7.873s] [ 14%] [32mBuilding C object CMakeFiles/armkidd_interfaces__rosidl_generator_c.dir/rosidl_generator_c/armkidd_interfaces/msg/detail/armkidd_target__functions.c.o[0m
+[8.011s] [ 17%] [32m[1mLinking C shared library libarmkidd_interfaces__rosidl_generator_c.so[0m
+[8.131s] [ 17%] Built target armkidd_interfaces__rosidl_generator_c
+[8.716s] running egg_info
+[8.745s] writing armkidd_interfaces.egg-info/PKG-INFO
+[8.747s] writing dependency_links to armkidd_interfaces.egg-info/dependency_links.txt
+[8.747s] writing top-level names to armkidd_interfaces.egg-info/top_level.txt
+[8.845s] reading manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'
+[8.847s] writing manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'
+[8.954s] [ 17%] Built target ament_cmake_python_build_armkidd_interfaces_egg
+[8.986s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.582s] [ 23%] [32mBuilding CXX object CMakeFiles/armkidd_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/armkidd_interfaces/msg/armkidd_target__type_support.cpp.o[0m
+[9.783s] [ 26%] [32m[1mLinking CXX shared library libarmkidd_interfaces__rosidl_typesupport_c.so[0m
+[9.889s] [ 26%] Built target armkidd_interfaces__rosidl_typesupport_c
+[9.917s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.526s] [ 32%] [32mBuilding C object CMakeFiles/armkidd_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/armkidd_interfaces/msg/detail/armkidd_target__type_support.c.o[0m
+[10.650s] [ 35%] [32m[1mLinking C shared library libarmkidd_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.732s] [ 35%] Built target armkidd_interfaces__rosidl_typesupport_introspection_c
+[10.758s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.450s] [ 41%] [32mBuilding CXX object CMakeFiles/armkidd_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/armkidd_interfaces/msg/detail/armkidd_target__type_support_c.cpp.o[0m
+[12.774s] [ 44%] [32m[1mLinking CXX shared library libarmkidd_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.899s] [ 44%] Built target armkidd_interfaces__rosidl_typesupport_fastrtps_c
+[12.960s] [ 47%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.899s] [ 47%] Built target armkidd_interfaces__cpp
+[13.923s] [ 50%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.463s] [ 52%] [32mBuilding CXX object CMakeFiles/armkidd_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/armkidd_interfaces/msg/armkidd_target__type_support.cpp.o[0m
+[15.285s] [ 55%] [32m[1mLinking CXX shared library libarmkidd_interfaces__rosidl_typesupport_cpp.so[0m
+[15.379s] [ 55%] Built target armkidd_interfaces__rosidl_typesupport_cpp
+[15.407s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.004s] [ 61%] [32mBuilding CXX object CMakeFiles/armkidd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/armkidd_interfaces/msg/detail/armkidd_target__type_support.cpp.o[0m
+[17.047s] [ 64%] [32m[1mLinking CXX shared library libarmkidd_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[17.154s] [ 64%] Built target armkidd_interfaces__rosidl_typesupport_introspection_cpp
+[17.180s] [ 67%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.885s] [ 70%] [32mBuilding CXX object CMakeFiles/armkidd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/armkidd_interfaces/msg/detail/dds_fastrtps/armkidd_target__type_support.cpp.o[0m
+[19.214s] [ 73%] [32m[1mLinking CXX shared library libarmkidd_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.378s] [ 73%] Built target armkidd_interfaces__rosidl_typesupport_fastrtps_cpp
+[19.424s] [ 73%] Built target armkidd_interfaces
+[19.473s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.304s] [ 76%] Built target armkidd_interfaces__py
+[20.391s] [ 79%] [32mBuilding C object CMakeFiles/armkidd_interfaces__rosidl_generator_py.dir/rosidl_generator_py/armkidd_interfaces/msg/_armkidd_target_s.c.o[0m
+[21.140s] [ 82%] [32m[1mLinking C shared library libarmkidd_interfaces__rosidl_generator_py.so[0m
+[21.280s] [ 82%] Built target armkidd_interfaces__rosidl_generator_py
+[21.418s] [ 85%] [32mBuilding C object CMakeFiles/armkidd_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[21.697s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[21.780s] [ 88%] Built target armkidd_interfaces_s__rosidl_typesupport_fastrtps_c
+[21.855s] [ 91%] [32mBuilding C object CMakeFiles/armkidd_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[22.124s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_c.so[0m
+[22.214s] [ 94%] Built target armkidd_interfaces_s__rosidl_typesupport_c
+[22.271s] [ 97%] [32mBuilding C object CMakeFiles/armkidd_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.534s] [100%] [32m[1mLinking C shared module rosidl_generator_py/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[22.617s] [100%] Built target armkidd_interfaces_s__rosidl_typesupport_introspection_c
+[22.642s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_interfaces -- -j6 -l6
+[22.672s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_interfaces
+[22.697s] -- Install configuration: ""
+[22.698s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/ament_index/resource_index/rosidl_interfaces/armkidd_interfaces
+[22.699s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg/ArmkiddTarget.json
+[22.699s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces
+[22.699s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg
+[22.700s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/armkidd_target.h
+[22.700s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_generator_c__visibility_control.h
+[22.700s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail
+[22.701s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.h
+[22.701s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__description.c
+[22.701s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__functions.h
+[22.702s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__struct.h
+[22.702s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.c
+[22.703s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__functions.c
+[22.704s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/library_path.sh
+[22.704s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/library_path.dsv
+[22.706s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_generator_c.so
+[22.707s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_generator_c.so" to ""
+[22.708s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces
+[22.708s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg
+[22.708s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail
+[22.708s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__rosidl_typesupport_fastrtps_c.h
+[22.708s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.709s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_fastrtps_c.so
+[22.711s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[22.711s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces
+[22.712s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg
+[22.712s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail
+[22.712s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.c
+[22.712s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__rosidl_typesupport_introspection_c.h
+[22.713s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.714s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_introspection_c.so
+[22.715s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[22.716s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_c.so
+[22.717s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_c.so" to ""
+[22.717s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces
+[22.717s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg
+[22.718s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[22.718s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail
+[22.719s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__struct.hpp
+[22.719s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__builder.hpp
+[22.719s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.hpp
+[22.719s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__traits.hpp
+[22.720s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/armkidd_target.hpp
+[22.720s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces
+[22.720s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg
+[22.720s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail
+[22.721s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__rosidl_typesupport_fastrtps_cpp.hpp
+[22.721s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/dds_fastrtps
+[22.721s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.721s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[22.723s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.723s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces
+[22.723s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg
+[22.723s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail
+[22.724s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__rosidl_typesupport_introspection_cpp.hpp
+[22.724s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/include/armkidd_interfaces/armkidd_interfaces/msg/detail/armkidd_target__type_support.cpp
+[22.725s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_introspection_cpp.so
+[22.728s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[22.728s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_cpp.so
+[22.729s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_typesupport_cpp.so" to ""
+[22.729s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/pythonpath.sh
+[22.729s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/pythonpath.dsv
+[22.730s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info
+[22.730s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[22.730s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[22.730s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[22.731s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[22.731s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces
+[22.731s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg
+[22.732s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg/_armkidd_target_s.c
+[22.732s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg/__init__.py
+[22.732s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg/_armkidd_target.py
+[22.733s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/__init__.py
+[22.733s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.733s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[22.733s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[22.737s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_c.so
+[22.738s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/_armkidd_interfaces_s.ep.rosidl_typesupport_c.c
+[22.738s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_introspection_c.so
+[22.833s] Listing '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces'...
+[22.834s] Compiling '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/__init__.py'...
+[22.838s] Listing '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg'...
+[22.838s] Compiling '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg/__init__.py'...
+[22.840s] Compiling '/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/msg/_armkidd_target.py'...
+[22.870s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[22.871s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[22.872s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_introspection_c.so
+[22.873s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[22.873s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_c.so
+[22.874s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/python3.12/site-packages/armkidd_interfaces/armkidd_interfaces_s__rosidl_typesupport_c.so" to ""
+[22.876s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_generator_py.so
+[22.877s] -- Set non-toolchain portion of runtime path of "/workspace/run/ros2_ws/install/armkidd_interfaces/lib/libarmkidd_interfaces__rosidl_generator_py.so" to ""
+[22.877s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg/ArmkiddTarget.idl
+[22.877s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg/ArmkiddTarget.msg
+[22.878s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg
+[22.878s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/msg/ArmkiddTarget.msg
+[22.879s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/ament_index/resource_index/package_run_dependencies/armkidd_interfaces
+[22.879s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/ament_index/resource_index/parent_prefix_path/armkidd_interfaces
+[22.879s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/ament_prefix_path.sh
+[22.880s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/ament_prefix_path.dsv
+[22.880s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/path.sh
+[22.880s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/environment/path.dsv
+[22.880s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/local_setup.bash
+[22.881s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/local_setup.sh
+[22.881s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/local_setup.zsh
+[22.882s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/local_setup.dsv
+[22.883s] -- Installing: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.dsv
+[22.883s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/ament_index/resource_index/packages/armkidd_interfaces
+[22.883s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_cExport.cmake
+[22.883s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_cExport-noconfig.cmake
+[22.884s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[22.884s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.884s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[22.884s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.885s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_cExport.cmake
+[22.885s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[22.885s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_cppExport.cmake
+[22.886s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.887s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.888s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[22.888s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.889s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_cppExport.cmake
+[22.889s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[22.889s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_pyExport.cmake
+[22.890s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/export_armkidd_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[22.890s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/rosidl_cmake-extras.cmake
+[22.890s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.891s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.891s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[22.891s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[22.891s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.892s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.892s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfacesConfig.cmake
+[22.893s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/cmake/armkidd_interfacesConfig-version.cmake
+[22.893s] -- Up-to-date: /workspace/run/ros2_ws/install/armkidd_interfaces/share/armkidd_interfaces/package.xml
+[22.897s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/run/ros2_ws/build/armkidd_interfaces

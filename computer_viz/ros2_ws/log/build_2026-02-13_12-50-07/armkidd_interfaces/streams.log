@@ -1,0 +1,48 @@
+[0.032s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces
+[0.070s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.362s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.556s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.561s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.766s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.852s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.855s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.916s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.756s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.810s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.573s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.060s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.696s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.753s] -- Found PythonExtra: /opt/venv/bin/python3  
+[4.483s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.692s] -- Configuring done (4.6s)
+[4.814s] -- Generating done (0.1s)
+[4.871s] -- Build files have been written to: /workspace/run/ros2_ws/build/armkidd_interfaces
+[4.899s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_interfaces
+[4.901s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_interfaces -- -j6 -l6
+[5.017s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.045s] [  2%] Built target ament_cmake_python_copy_armkidd_interfaces
+[5.129s] Traceback (most recent call last):
+[5.130s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 21, in <module>
+[5.130s]     from rosidl_generator_type_description import generate_type_hash
+[5.130s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 24, in <module>
+[5.130s]     from rosidl_parser.parser import parse_idl_file
+[5.130s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[5.131s]     from lark import Lark
+[5.131s] ModuleNotFoundError: No module named 'lark'
+[5.153s] gmake[2]: *** [CMakeFiles/armkidd_interfaces__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/armkidd_interfaces/msg/ArmkiddTarget.json] Error 1
+[5.156s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/armkidd_interfaces__rosidl_generator_type_description.dir/all] Error 2
+[5.156s] gmake[1]: *** Waiting for unfinished jobs....
+[5.548s] running egg_info
+[5.576s] creating armkidd_interfaces.egg-info
+[5.577s] writing armkidd_interfaces.egg-info/PKG-INFO
+[5.577s] writing dependency_links to armkidd_interfaces.egg-info/dependency_links.txt
+[5.578s] writing top-level names to armkidd_interfaces.egg-info/top_level.txt
+[5.578s] writing manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'
+[5.668s] reading manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'
+[5.670s] writing manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'
+[5.766s] [  2%] Built target ament_cmake_python_build_armkidd_interfaces_egg
+[5.769s] gmake: *** [Makefile:146: all] Error 2
+[5.775s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/run/ros2_ws/build/armkidd_interfaces -- -j6 -l6

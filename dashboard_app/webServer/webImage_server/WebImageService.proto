@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package webimagestream;
+
+service WebImageStreamService {
+  rpc SendImageStream(stream ImageMessage) returns (Ack);
+}
+
+service WebImageEventService {
+  rpc SendImageEvent(ImageMessage) returns (Ack);
+}
+
+message ImageMessage {
+  bytes image = 1;
+}
+
+message Ack {
+  string status = 1;
+}

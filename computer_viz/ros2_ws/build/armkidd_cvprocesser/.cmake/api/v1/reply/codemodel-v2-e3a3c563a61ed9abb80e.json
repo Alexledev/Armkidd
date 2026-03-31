@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3e10ce87863425783a08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "armkidd_cvprocesser",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_armkidd_cvprocesser_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_armkidd_cvprocesser_egg-c8c192d378d52f744c86.json",
+					"name" : "ament_cmake_python_build_armkidd_cvprocesser_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_armkidd_cvprocesser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_armkidd_cvprocesser-69b0917c596c7c136a1f.json",
+					"name" : "ament_cmake_python_copy_armkidd_cvprocesser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armkidd_cvprocesser_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armkidd_cvprocesser_uninstall-f81ee392780447d9534b.json",
+					"name" : "armkidd_cvprocesser_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-341dc727ae38e95842a4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/run/ros2_ws/build/armkidd_cvprocesser",
+		"source" : "/workspace/run/ros2_ws/src/armkidd_cvprocesser"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

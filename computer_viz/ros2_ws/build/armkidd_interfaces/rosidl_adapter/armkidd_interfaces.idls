@@ -1,0 +1,2 @@
+/workspace/run/ros2_ws/build/armkidd_interfaces/rosidl_adapter/armkidd_interfaces:msg/WorldTarget.idl
+/workspace/run/ros2_ws/build/armkidd_interfaces/rosidl_adapter/armkidd_interfaces:srv/MarkImg.idl

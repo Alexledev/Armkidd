@@ -1,0 +1,83 @@
+@import "/styles.css";
+
+.offset-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.whisper-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.whisper-input-outer {
+    display: grid;    
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.whisper-input-element {
+    margin: 0.5rem 0;
+    grid-column: span 3;
+}
+
+.whisper-input-element:nth-child(-n+3) {
+    /* grid-column: 1 / -1;  span both columns */
+    grid-column: span 2;
+}
+
+
+
+
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.camera-input-outer {
+    display: grid;    
+    grid-template-columns: repeat(5, 1fr);
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.camera-input-outer  > .camera-input-element:first-of-type {
+    margin: 0.5rem 0;
+    grid-column: span 2;
+}
+
+.camera-input-element {
+    margin: 0.5rem 0;
+    grid-column: span 1;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.button-container > button {
+    min-width: 6rem;
+}
+
+.arm-input-outer {
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.arm-input-element {
+    margin: 0.5rem 0;
+    grid-column: span 1;
+}

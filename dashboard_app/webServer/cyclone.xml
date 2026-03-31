@@ -1,0 +1,18 @@
+<!-- cyclone.xml -->
+<CycloneDDS>
+  <Domain>
+    <General>
+      <AllowMulticast>false</AllowMulticast>
+      <Interfaces>
+        <NetworkInterface name="wlP1p1s0"/>
+      </Interfaces>
+    </General>
+
+    <Discovery>
+      <ParticipantIndex>auto</ParticipantIndex>
+      <Peers>
+        <Peer address="127.0.0.1"/>
+      </Peers>
+    </Discovery>
+  </Domain>
+</CycloneDDS>

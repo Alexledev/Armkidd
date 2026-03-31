@@ -1,0 +1,4 @@
+source;share/armkidd_cvprocesser/local_setup.bash
+source;share/armkidd_cvprocesser/local_setup.dsv
+source;share/armkidd_cvprocesser/local_setup.sh
+source;share/armkidd_cvprocesser/local_setup.zsh

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package webchatservice;
+
+service WebChatStreamService {
+  rpc ClientSend(TextMessage) returns (Ack);
+
+  rpc ServerSend(SubscribeRequest) returns (stream ChatMessage);
+}
+
+message ChatMessage {
+  string response = 1;
+}
+
+message SubscribeRequest {
+  string client_id = 1;
+}
+
+
+message Ack {
+  string status = 1;
+}
+
+message TextMessage {
+  string prompt = 1;
+}

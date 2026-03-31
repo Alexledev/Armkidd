@@ -1,0 +1,44 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /opt/venv/bin/python3  
+-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (4.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /workspace/run/ros2_ws/build/armkidd_interfaces
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_armkidd_interfaces
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 21, in <module>
+    from rosidl_generator_type_description import generate_type_hash
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+gmake[2]: *** [CMakeFiles/armkidd_interfaces__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/armkidd_interfaces/msg/ArmkiddTarget.json] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/armkidd_interfaces__rosidl_generator_type_description.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+creating armkidd_interfaces.egg-info
+writing armkidd_interfaces.egg-info/PKG-INFO
+writing dependency_links to armkidd_interfaces.egg-info/dependency_links.txt
+writing top-level names to armkidd_interfaces.egg-info/top_level.txt
+writing manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'armkidd_interfaces.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_armkidd_interfaces_egg
+gmake: *** [Makefile:146: all] Error 2

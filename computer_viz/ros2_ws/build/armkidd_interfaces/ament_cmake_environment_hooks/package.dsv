@@ -1,0 +1,4 @@
+source;share/armkidd_interfaces/local_setup.bash
+source;share/armkidd_interfaces/local_setup.dsv
+source;share/armkidd_interfaces/local_setup.sh
+source;share/armkidd_interfaces/local_setup.zsh

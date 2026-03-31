@@ -1,0 +1,9 @@
+<library path="armkidd_controller">
+    <class name="armkidd_controller/ArmkiddInterface"
+            type="armkidd_controller::ArmkiddInterface"
+            base_class_type="hardware_interface::SystemInterface">
+        <description>
+            Armkidd Hardware Interface
+        </description>    
+    </class>
+</library>

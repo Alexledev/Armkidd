@@ -1,0 +1,3 @@
+2026-02-12 12:30:06.739175698 [E:onnxruntime:, sequential_executor.cc:572 ExecuteKernel] Non-zero status code returned while running Add node. Name:'/Add' Status Message: /Add: right operand cannot broadcast on dim 0 LeftShape: {1,449,512}, RightShape: {448,512}
+Error in ONNX Whisper Infer: [ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running Add node. Name:'/Add' Status Message: /Add: right operand cannot broadcast on dim 0 LeftShape: {1,449,512}, RightShape: {448,512}
+[Skipped: invalid speech]

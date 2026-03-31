@@ -1,0 +1,31 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found vision_msgs: 4.1.1 (/opt/ros/jazzy/share/vision_msgs/cmake)
+[31mCMake Error at CMakeLists.txt:18 (find_package):
+  By not providing "Findroverlad_interfaces.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "roverlad_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "roverlad_interfaces" with any of the following names:
+
+    roverlad_interfacesConfig.cmake
+    roverlad_interfaces-config.cmake
+
+  Add the installation prefix of "roverlad_interfaces" to CMAKE_PREFIX_PATH
+  or set "roverlad_interfaces_DIR" to a directory containing one of the above
+  files.  If "roverlad_interfaces" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+
+<head>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+  
+  <fieldset id="arm_container_fieldset">
+    <div class="arm-container">
+        <h1>Arm_kidd main page</h1>
+
+        <div class="offset-container">
+          <h4>Arm Target Settings</h4>
+          <div>
+              <label for="XOffset" class="form-label">X offset <span id="XOffsetLabel" class="badge text-bg-danger">1.00</span></label>
+              <input type="range" class="form-range" id="XOffset" min="0.1" max="2" step="0.01">
+
+              <label for="YOffset" class="form-label">Y offset <span id="YOffsetLabel" class="badge text-bg-success">1.00</span></label>
+              <input type="range" class="form-range" id="YOffset" min="0.1" max="2" step="0.01">
+
+              <label for="ZOffset" class="form-label">Z offset <span id="ZOffsetLabel" class="badge text-bg-primary">1.00</span></label>
+              <input type="range" class="form-range" id="ZOffset" min="0.1" max="2" step="0.01">
+          </div> 
+                     
+          <div class="arm-input-outer">
+            <div class="arm-input-element">
+              <label for="inputForwardReach" class="form-label">Reach Forward Distance (10*cm)</label>
+              <input type="number" class="form-control" id="inputForwardReach" aria-describedby="armFowardReachHelp" required value="0.1" step="0.01">
+              <div id="armFowardReach" class="form-text">How far the arm reaches forward.</div>
+            </div>
+
+            <div class="arm-input-element">
+              <label for="inputRaiseDist" class="form-label">Raise Up/Down Distance (10*cm)</label>
+              <input type="number" class="form-control" id="inputRaiseDist" aria-describedby="armRaiseDistHelp" required value="0.1" step="0.01">
+              <div id="armRaiseDistHelp" class="form-text">How far the arm goes up/down.</div>
+            </div>
+
+            <div class="arm-input-element">
+              <label for="inputGripTimeout" class="form-label">Gripper Timeout (seconds)</label>
+              <input type="number" class="form-control" id="inputGripTimeout" aria-describedby="armGripTimeoutHelp" required value="3.0" step="0.1">
+              <div id="armGripTimeoutHelp" class="form-text">How long the arm waits when gripping.</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="whisper-container">
+          <h4>Whisper Settings</h4>
+
+          <div class="whisper-input-outer">
+            <div class="whisper-input-element"> 
+              <label for="inputTimeProc" class="form-label">Time to process (seconds)</label>
+              <input type="number" class="form-control" id="inputTimeProc" aria-describedby="timeProcHelp" required value="2.0" step="0.1">
+              <div id="timeProcHelp" class="form-text">Time of silence needed to split audio for Whisper.</div>
+            </div>  
+
+            <div class="whisper-input-element">
+              <label for="inputTalkDuration" class="form-label">Max Talk Duration (seconds)</label>
+              <input type="number" class="form-control" id="inputTalkDuration" aria-describedby="talkDurationHelp" required value="8.0" step="0.1">
+              <div id="talkDurationHelp" class="form-text">Time allowed for user to speak when prompted for command.</div>
+            </div>
+
+            <div class="whisper-input-element">
+              <label for="inputConfirmThresh" class="form-label">Confirmation Threshold (0.1 - 1.0)</label>
+              <input type="number" class="form-control" id="inputConfirmThresh" aria-describedby="confirmThreshHelp" required value="0.75" min="0.1" max="1.0" step="0.01">
+              <div id="confirmThreshHelp" class="form-text">Threshold of how accurately the ready command must be spoken.</div>
+            </div>
+
+            <div class="whisper-input-element">
+              <label for="inputReadyPhrases" class="form-label">Ready Phrases</label>
+
+              <textarea class="form-control" id="inputReadyPhrases" rows="4" aria-describedby="readyPhrasesHelp">hey arm kid;</textarea>
+
+              <div id="readyPhrasesHelp" class="form-text">
+                What phrases will prompt the arm to listen for a command. (Seperate via ;)
+              </div>
+            </div>
+
+            <div class="whisper-input-element">
+              <label for="inputConfirmComments" class="form-label">Confirmation Comments</label>
+
+              <textarea class="form-control" id="inputConfirmComments" rows="4" aria-describedby="confirmCommentsHelp">Ready ; Go ahead ; Listening.</textarea>
+
+              <div id="confirmCommentsHelp" class="form-text">
+                What phrases the arm will say when confirming readyness. (Seperate via ;)
+              </div>
+            </div>            
+          </div>
+        </div>
+
+        <div class="camera-container">
+          <h4>Camera Settings</h4>
+
+          <div class="camera-input-outer">
+
+            <div class="camera-input-element">              
+              <label for="inputCameraAngle" class="form-label">Camera Angle (Rad) <span id="cameraAngleLabel" class="badge text-bg-secondary">1.00</span></label>
+              <input type="range" class="form-range" id="inputCameraAngle" aria-describedby="cameraAngleHelp" min="-3.14" max="3.14" step="0.01">
+              <div id="cameraAngleHelp" class="form-text">How far camera is pointing up or down.</div>
+            </div>  
+
+            <div class="camera-input-element">
+              <label for="inputCamXOffset" class="form-label">X offset</label>
+              <input type="number" class="form-control text-bg-danger" id="inputCamXOffset" aria-describedby="camXOffsetHelp" required value="-0.5" step="0.01">
+              <div id="camXOffsetHelp" class="form-text">Camera's X position offset (10*cm).</div>
+            </div>
+
+            <div class="camera-input-element">
+              <label for="inputCamYOffset" class="form-label">Y offset</label>
+              <input type="number" class="form-control text-bg-success" id="inputCamYOffset" aria-describedby="camYOffsetHelp" required value="-1.3" step="0.01">
+              <div id="camYOffsetHelp" class="form-text">Camera's Y position offset (10*cm).</div>
+            </div>
+
+            <div class="camera-input-element">
+              <label for="inputCamZOffset" class="form-label">Z offset</label>
+              <input type="number" class="form-control text-bg-primary" id="inputCamZOffset" aria-describedby="camZOffsetHelp" required value="2.8" step="0.01">
+              <div id="camZOffsetHelp" class="form-text">Camera's Z height (10*cm).</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="button-container">
+            <!-- <button id="restart" type="button" class="btn btn-primary">Restart</button> -->
+            <button id="save" type="button" class="btn btn-primary">Save</button>
+        </div>
+
+    </div>
+
+    <div class="arm-container">
+      <pre id="log"></pre>
+    </div>
+  </fieldset>
+
+
+  <script type="module" src="/index.js"></script>
+
+</body>
+
+</html>

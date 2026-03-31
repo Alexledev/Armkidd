@@ -1,0 +1,10 @@
+
+.vscode
+
+whisper_onnx/models
+stt_whisper/models
+
+shared/config.yaml
+armkidd_hub/ros2_ws/build
+armkidd_hub/ros2_ws/install
+armkidd_hub/ros2_ws/log

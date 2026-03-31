@@ -1,0 +1,11 @@
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/uninstall.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/armkidd_cvprocesser_uninstall.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/ament_cmake_python_copy_armkidd_cvprocesser.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/ament_cmake_python_build_armkidd_cvprocesser_egg.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/test.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/edit_cache.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/rebuild_cache.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/list_install_components.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/install.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/install/local.dir
+/workspace/run/ros2_ws/build/armkidd_cvprocesser/CMakeFiles/install/strip.dir

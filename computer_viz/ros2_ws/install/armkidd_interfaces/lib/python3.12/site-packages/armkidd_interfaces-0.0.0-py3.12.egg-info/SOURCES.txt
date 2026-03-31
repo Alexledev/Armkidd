@@ -1,0 +1,11 @@
+setup.py
+armkidd_interfaces/__init__.py
+armkidd_interfaces.egg-info/PKG-INFO
+armkidd_interfaces.egg-info/SOURCES.txt
+armkidd_interfaces.egg-info/dependency_links.txt
+armkidd_interfaces.egg-info/top_level.txt
+armkidd_interfaces/msg/__init__.py
+armkidd_interfaces/msg/_armkidd_target.py
+armkidd_interfaces/msg/_world_target.py
+armkidd_interfaces/srv/__init__.py
+armkidd_interfaces/srv/_mark_img.py

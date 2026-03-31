@@ -1,0 +1,33 @@
+[0.025s] Invoking command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser
+[0.060s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.553s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.619s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.641s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.828s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.831s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.878s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.995s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.995s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.057s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.101s] -- Found vision_msgs: 4.1.1 (/opt/ros/jazzy/share/vision_msgs/cmake)
+[1.235s] Traceback (most recent call last):
+[1.235s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.235s]     from catkin_pkg.package import parse_package_string
+[1.235s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.244s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.244s]   execute_process(/opt/venv/bin/python3
+[1.244s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.245s]   /workspace/run/ros2_ws/src/armkidd_cvprocesser/package.xml
+[1.245s]   /workspace/run/ros2_ws/build/armkidd_cvprocesser/ament_cmake_core/package.cmake)
+[1.245s]   returned error code 1
+[1.245s] Call Stack (most recent call first):
+[1.245s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.246s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+[1.246s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[1.246s]   CMakeLists.txt:25 (ament_python_install_package)
+[1.246s] 
+[1.247s] [0m
+[1.247s] -- Configuring incomplete, errors occurred!
+[1.265s] Invoked command in '/workspace/run/ros2_ws/build/armkidd_cvprocesser' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/run/ros2_ws/src/armkidd_cvprocesser -DCMAKE_INSTALL_PREFIX=/workspace/run/ros2_ws/install/armkidd_cvprocesser

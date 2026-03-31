@@ -1,0 +1,9 @@
+int16 x1
+int16 y1
+int16 x2
+int16 y2
+int16 choke_x
+int16 choke_y
+bool is_valid
+---
+std_msgs/ByteMultiArray image

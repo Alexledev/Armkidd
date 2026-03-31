@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+
+    <head>
+        <link rel="stylesheet" href="/webUI/stream/stream.css">
+    </head>
+
+    <body>
+    
+        <fieldset id="stream_container_fieldset">
+            <div class="arm-container">
+                <h1>Arm_kidd Streaming</h1>
+
+                <div class="video-ui">
+                    <div>
+                        <div>
+                            <h4>Detection View</h3>
+                        </div>
+
+                        <img id="small_img" src="/webUI/stream/placeholder.png" draggable="false"/>
+                    </div>
+
+                    <div >
+                        <div>
+                            <h4>Real Time View</h3>
+                        </div>
+
+                        <img id="map_stream" src="/webUI/stream/placeholder.png" draggable="false"/>
+                    </div>                    
+                </div>
+
+                <button id="take_snapshot" type="button" class="btn btn-primary snapshot-btn">Take Snapshot</button>
+            </div>
+
+
+            <div class="arm-container">
+                <h2>Arm_kidd Chat</h2>
+                
+                <div class="chat-option-cont">
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnchat" id="btnchatVoice" autocomplete="off" value="voice">
+                        <label class="btn btn-outline-primary" for="btnchatVoice">Voice</label>
+
+                        <input type="radio" class="btn-check" name="btnchat" id="btnchatText" autocomplete="off" value="chat">
+                        <label class="btn btn-outline-primary" for="btnchatText">Chat</label>
+                    </div>
+                </div>
+
+                <div class="text-input-cont">
+                    <div>
+                        <label for="inputReady" class="form-label">Ready Command</label>
+                        <input type="text" class="form-control" id="inputReady" required placeholder="Hey Arm kidd...">
+                    </div>
+
+                    <div>
+                        <label for="inputCommand" class="form-label">Action Command</label>
+                        <input type="text" class="form-control" id="inputCommand" required placeholder="Pick up the...." disabled>
+                    </div>
+
+                    <div>
+                        <button id="send_input" type="button" class="btn btn-primary input-btn">Send</button>
+                    </div>                    
+                </div>
+
+                
+            </div>
+
+        </fieldset>
+
+    </body>
+    <script type="module">
+        import { CameraStream, ChatCommands } from "/webUI/stream/stream.js";
+
+        const img = document.getElementById("map_stream");
+        const img2 = document.getElementById("small_img");
+        const btn = document.getElementById("take_snapshot");
+        const camStream = new CameraStream(img, img2, btn);
+        
+        const btnchatVoice = document.getElementById("btnchatVoice");
+        const btnchatText = document.getElementById("btnchatText");
+        const readyInput = document.getElementById("inputReady")
+        const commandInput = document.getElementById("inputCommand")
+        const sendBtn = document.getElementById("send_input")
+        window.chatCom = new ChatCommands(btnchatVoice, btnchatText, readyInput, commandInput, sendBtn);
+
+    </script>
+</html>

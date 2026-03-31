@@ -1,0 +1,15 @@
+{
+  "package_name": "armkidd_interfaces",
+  "output_dir": "/workspace/run/ros2_ws/build/armkidd_interfaces/rosidl_generator_type_description/armkidd_interfaces",
+  "idl_tuples": [
+    "/workspace/run/ros2_ws/build/armkidd_interfaces/rosidl_adapter/armkidd_interfaces:msg/WorldTarget.idl",
+    "/workspace/run/ros2_ws/build/armkidd_interfaces/rosidl_adapter/armkidd_interfaces:srv/MarkImg.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}
