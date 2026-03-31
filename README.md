@@ -16,7 +16,7 @@
 ![Nginx](https://img.shields.io/badge/Nginx-Web%20Server-009639?logo=nginx&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-Real--time-010101?logo=socket.io&logoColor=white)
 ![Web API](https://img.shields.io/badge/Web%20API-REST-FF6F00?logo=fastapi&logoColor=white)
-![WebRTC](https://img.shields.io/badge/WebRTC-Enabled-333333?logo=webrtc&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-Enabled-333333?logo=gRPC&logoColor=white)
 
 ![Arduino Uno](https://img.shields.io/badge/Arduino-Uno-00979D?logo=arduino&logoColor=white)
 ![Jetson Orin Nano](https://img.shields.io/badge/NVIDIA-Jetson%20Orin%20Nano-green?logo=nvidia&logoColor=white)
