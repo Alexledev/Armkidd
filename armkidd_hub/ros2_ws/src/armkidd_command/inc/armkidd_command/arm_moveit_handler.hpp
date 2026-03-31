@@ -20,6 +20,19 @@ public:
 
     bool moveArmToPoint(geometry_msgs::msg::PointStamped point)
     {
+        moveit_msgs::msg::Constraints constraints;
+        moveit_msgs::msg::JointConstraint jc;
+
+        jc.joint_name = "joint_5";   // <-- your joint
+        jc.position = 0.0;              // lock at 0
+        jc.tolerance_above = 0.001;
+        jc.tolerance_below = 0.001;
+        jc.weight = 1.0;
+
+        constraints.joint_constraints.push_back(jc);
+        moveGroup->setPathConstraints(constraints);
+
+
         RCLCPP_INFO(node->get_logger(), "Setting target: x: %.2f, y: %.2f, z: %.2f", point.point.x, point.point.y, point.point.z);
         moveGroup->setPositionTarget(point.point.x, point.point.y, point.point.z);
 

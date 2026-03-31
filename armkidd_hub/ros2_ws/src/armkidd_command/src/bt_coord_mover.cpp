@@ -172,7 +172,7 @@ class BTCoordMover : public rclcpp::Node
 
         void grippedCallback(const std_msgs::msg::String::SharedPtr msg)
         {
-            RCLCPP_INFO(get_logger(), "Gripped Callback");
+            RCLCPP_INFO(get_logger(), "Gripped Callback.");
 
             tree.rootBlackboard()->set("grippedState", true);
             gripResetTimer->cancel();

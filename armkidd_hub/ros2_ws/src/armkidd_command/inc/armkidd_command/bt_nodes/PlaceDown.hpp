@@ -61,7 +61,7 @@ class PlaceDown : public BT::StatefulActionNode
             }
             catch (...)
             {
-                RCLCPP_ERROR(node->get_logger(), "Unknown exception in PlaceDown node");
+                RCLCPP_ERROR(node->get_logger(), "Unknown exception in PlaceDown node ");
                 return BT::NodeStatus::FAILURE;
             }
         }

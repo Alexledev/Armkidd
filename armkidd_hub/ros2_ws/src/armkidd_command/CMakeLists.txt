@@ -63,7 +63,6 @@ ament_target_dependencies(pcl_obstacles rclcpp geometry_msgs sensor_msgs visuali
 install(TARGETS
   nuwacam_scaler
   pcl_obstacles
-  # arm_coord_mover
   bt_coord_mover
   DESTINATION
   lib/${PROJECT_NAME}

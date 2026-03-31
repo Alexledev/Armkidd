@@ -37,14 +37,6 @@ def generate_launch_description():
         ]
     )
 
-
-    # camera_tf = Node(
-    #     package="armkidd_command",
-    #     executable="camera_tf",
-    #     name='camera_tf',       # node name (optional)
-    #     output="screen",
-    # )
-
     pcl_obs = Node(
         package = "armkidd_command",
         executable = "pcl_obstacles",
@@ -52,12 +44,12 @@ def generate_launch_description():
         output = "screen"
     )
 
-    # arm_coord_mover = Node(
-    #     package="armkidd_command",
-    #     executable="arm_coord_mover_bt",
-    #     name='arm_coord_mover_bt',       # node name (optional)
-    #     output="screen",
-    # )
+    bt_coord_mover = Node(
+        package="armkidd_command",
+        executable="bt_coord_mover",
+        name='bt_coord_mover',       # node name (optional)
+        output="screen",
+    )
 
     nuwacam_scaler = Node(
         package="armkidd_command",
@@ -66,16 +58,9 @@ def generate_launch_description():
         output="screen",
     )
 
-    nuwacam_scaler2 = Node(
-        package="armkidd_command",
-        executable="nuwacam_scaler",
-        name='nuwacam_scaler',       # node name (optional)
-        output="screen",
-    )
-
-    camera = IncludeLaunchDescription(
-        os.path.join(get_package_share_directory("nuwacam"), "launch", "hp60c.launch.py"),
-    )
+    # camera = IncludeLaunchDescription(
+    #     os.path.join(get_package_share_directory("nuwacam"), "launch", "hp60c.launch.py"),
+    # )
     
     return LaunchDescription([
         static_tf,
@@ -83,7 +68,7 @@ def generate_launch_description():
         moveit,
         pcl_obs,
         TimerAction(period=5.0, actions=[nuwacam_scaler]),
-        # TimerAction(period=7.0, actions=[camera]),
-        # TimerAction(period=10.0, actions=[nuwacam_scaler2]),
+        TimerAction(period=8.0, actions=[bt_coord_mover]),
+        # TimerAction(period=10.0, actions=[camera]),
     ])
     
