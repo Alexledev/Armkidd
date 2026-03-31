@@ -1,4 +1,6 @@
 # Locally Hosted AI Agent powered Robotic Arm with Voice control
+## -- Agent Client --
+#### Agent Server code: https://github.com/Alexledev/armkidd_agents
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -18,7 +20,6 @@
 ![HP-60C Depth Camera](https://img.shields.io/badge/Depth%20Camera-HP--60C-blue)
 
 
-#### Agent Server code: https://github.com/Alexledev/armkidd_agents
 
 A robotic arm controlled via voice commands using a locally ran multimodel AI agent using depth camera and Moveit2 to pick up recognizable objects at the user's request and description.
 
