@@ -4,8 +4,10 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
+
 ![ROS 2 Jazzy](https://img.shields.io/badge/ROS2-Jazzy-22314E?logo=ros&logoColor=white)
 ![MoveIt 2](https://img.shields.io/badge/MoveIt-2-5C3EE8?logo=ros&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
 
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?logo=opencv&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white)
@@ -14,6 +16,7 @@
 ![Nginx](https://img.shields.io/badge/Nginx-Web%20Server-009639?logo=nginx&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-Real--time-010101?logo=socket.io&logoColor=white)
 ![Web API](https://img.shields.io/badge/Web%20API-REST-FF6F00?logo=fastapi&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-Enabled-333333?logo=webrtc&logoColor=white)
 
 ![Arduino Uno](https://img.shields.io/badge/Arduino-Uno-00979D?logo=arduino&logoColor=white)
 ![Jetson Orin Nano](https://img.shields.io/badge/NVIDIA-Jetson%20Orin%20Nano-green?logo=nvidia&logoColor=white)
