@@ -73,7 +73,7 @@ https://github.com/Alexledev/armkidd_agents
 
 ## Execution diagram
 
-![Diagram](Armkidd.drawio.svg)
+![Diagram](Armkidd.svg)
 
 Notes:
 - Not included: Configuration flow
