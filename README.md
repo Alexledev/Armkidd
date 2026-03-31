@@ -42,7 +42,8 @@ The arm features:
 ## Link for the Depth Cam, Arduino code, and AI:
 https://github.com/Alexledev/ComputerViz
 
-https://github.com/Alexledev/RoboticArm_Ros2Control
+~~https://github.com/Alexledev/RoboticArm_Ros2Control~~
+https://github.com/Alexledev/RoboticArm_Arduino
 
 https://github.com/Alexledev/armkidd_agents
 
